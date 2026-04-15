@@ -1,0 +1,12 @@
+export const metadata = {
+  title: "J.K. Genesis Mitchell",
+  description: "Professional portfolio site",
+};
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <body>{children}</body>
+    </html>
+  );
+}
